@@ -1,0 +1,296 @@
+body{
+    height: 100%;
+    padding-bottom: 60px;
+    background-color:#b6c4fa;
+    overflow: visible;
+}
+
+ header{
+   padding: 16px 78px;
+     background-color: rgb(253, 252, 252);
+     width: 100%;
+     margin-top: -8px;
+     margin-left: -8px;
+     
+ }
+#logo
+{
+   font-size: 32px;
+   color: #0084ff;
+   width: 32px;
+}
+.stories{
+   margin: 0%;
+   font-weight: 500;
+   font-style: italic;
+   list-style-type: none;
+   margin-top: -10px;
+}
+#Categories{
+   padding-top: 0px;
+   padding-left: 40px;
+   font-size: 15px;
+}
+#Dropdown{
+   width: 170px;
+   height: 30px;
+  
+}
+
+.icon{
+   cursor: pointer ;
+   
+}
+#heading-1{
+   color: #000;
+   font-weight: 600;
+   margin-bottom: 20px;
+   margin-left: 15px;
+   padding-top: 40px;
+   position:static ;
+   font-size: 30px;
+   
+}
+.filter{
+   font-size: 14px;
+   margin-left: 15px;
+   font-weight: 600;
+
+}
+section{
+   padding-top: 16px;
+   margin-bottom: 20px;
+   margin-left: 15px;
+   width: 100%; 
+}
+.head{
+   margin:0px; color: #000
+}
+.padauthor{
+   padding-top: 4px;
+}
+#All:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+  #All{ 
+      border: 1px solid #0084ff;
+     width: auto; 
+     padding: 6px 14px;
+     border-radius: 15px;
+      margin: 5px; color: #0084ff;
+     
+}
+
+#ArtificialInteligence:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+   #ArtificialInteligence{
+       border: 1px solid #0084ff;
+       width: auto; padding: 6px 14px;
+       border-radius: 15px;
+        margin: 5px; 
+        color: #0084ff;
+        
+
+}
+#Cloudcomputing:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+
+   #Cloudcomputing{ 
+       border: 1px solid #0084ff;
+       width: auto; padding: 6px 14px;
+       border-radius: 15px; 
+       margin: 5px; 
+       color: #0084ff;
+     
+
+}
+#Devops:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+
+   #Devops{
+        border: 1px solid #0084ff;
+        width: auto; 
+        padding: 6px 14px;
+        border-radius: 15px;
+         margin: 5px; color: #0084ff;
+       
+
+}
+#ProgrammingLanguage:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+   #ProgrammingLanguage{
+       border: 1px solid #0084ff;
+       width: auto; padding: 6px 14px;
+       border-radius: 15px; 
+       margin: 5px; 
+       color: #0084ff;
+   
+
+}
+#Techandtools:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+   #Techandtools{
+       border: 1px solid #0084ff;
+       width: auto; 
+       padding: 6px 14px;
+       border-radius: 15px; 
+       margin: 5px; 
+       color: #0084ff;
+      
+ }
+     #MobileApplicationandDevlopment:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+   #MobileApplicationandDevlopment{
+       border: 1px solid #0084ff;
+       width: auto; 
+       padding: 6px 14px;
+       border-radius: 15px; 
+       margin: 5px; 
+       color: #0084ff;
+     
+   }
+     #GetajobinTechCompany:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+   #GetajobinTechCompany{
+       border: 1px solid #0084ff;
+       width: auto; 
+       padding: 6px 14px;
+       border-radius: 15px; 
+       margin: 5px; 
+       color: #0084ff;
+       
+
+}
+#Others:active{
+   background-color: #0084ff;
+   color: #fff;}
+
+   #Others{
+       border: 1px solid #0084ff;
+     width: auto; 
+     padding: 6px 14px;
+     border-radius: 15px; 
+     margin: 5px; 
+     color: #0084ff;}
+     
+     .column {
+        float: left;
+        width: 30%;
+        height: 459px;
+        border-top-left-radius: 5px;
+              border-top-right-radius:5px;
+              border: 1px solid black;
+              margin-left: 20px;
+              margin-top: 20px;
+              overflow: hidden;
+             
+      }
+      
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+       
+      }
+      
+     #Web{
+    margin-left: 50%;
+    }
+    .image{
+        height: 176px;
+        width: 100%;
+
+    }
+    .author{
+    color: #0096ff;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 15px;
+    text-decoration: none;
+    }
+    .date{
+        color: rgba(0,0,0,0.7);
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 4px;
+    }
+    .outcard{
+       padding: 10px 24px;
+    }
+ 
+    .text{
+        
+        font-size: 14px;
+        font-weight: 400;
+        margin: 4px 0px;
+        line-height: 1.43;
+        color: rgba(0,0,0,.6);
+        margin-left: 15px;
+     
+        
+      padding-top: 24px;
+    
+        
+       
+        
+    }
+    a{
+        text-decoration: none;
+        color: #0084ff;
+    }
+      .Card:hover{
+          background-color: rgb(185, 184, 184);
+     
+               }
+      footer{
+        padding: 80px 16%; 
+        background-color: #172146;
+        margin-top:40px ;
+        PADDING-LEFT: 00;
+        PADDING-RIGHT: 00;
+        position: block;
+      }
+      header{
+         position: fixed;
+
+      }
+      h3{
+         color: hsla(0,0%,100%,.5);
+         font-weight: 500;
+      }
+      ul{
+         list-style: none;
+         text-align: justify;
+         color: white;
+         width: 200px;
+                 
+      }
+      .contain{
+       display: inline-table;
+       margin-left:70PX;
+      
+      }
+      .email{
+         margin-top: -22px;
+         margin-left: 22px;
+      }
+      html{
+         scroll-behavior: smooth;
+      }
