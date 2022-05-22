@@ -1,0 +1,234 @@
+body{
+    background: linear-gradient(TO RIGHT, white, rgb(224, 223, 223));
+}
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    color: #fca484;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
+
+.Line-hover::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #8071D0;
+    transition: width 0.3;
+
+}
+
+.Line-hover:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+
+}
+
+
+.nav-button {
+    border: none;
+    font-size: 15px;
+    padding: 30px 45px 30px 45px;
+    border-radius: 35px;
+    background-color: #FFD8DB;
+    color: #A389CC;
+    cursor: pointer;
+
+}
+
+.nav-button:hover {
+    box-shadow: 5px 5px 3px black;
+    transition: 0.4s;
+
+}
+
+
+.content-menu:hover {
+    color: #8071D0;
+    text-decoration: underline;
+    box-shadow: 5px 5px 3px black;
+    cursor: pointer;
+
+}
+
+.Heading-1 {
+    font-size: 100px;
+    text-shadow: 8px 8px 4px gray;
+}
+
+.text {
+    color: #A389CC;
+    font-size: 20px;
+    line-height: 1.43;
+}
+
+.Page-button {
+    border: none;
+    font-size: 15px;
+    padding: 30px 45px 30px 45px;
+    border-radius: 35px;
+    background-color: #5243C0;
+    color: white;
+    cursor: pointer;
+    
+}
+.Page-button:hover {
+    box-shadow: 5px 5px 3px black;
+    transition: 0.4s;}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.img {
+    display: flex;
+    margin-left: 5px;
+}
+.arrow{
+    margin: 0px 5px;
+   
+}
+
+.arrow2{
+    margin-top: 8px;
+    display: flex;
+}
+table{
+    margin: 0px 50px;
+}
+tr td{
+    padding: 15px;
+    font-size: 20px;
+    
+    border-collapse: collapse;
+}
+.blue:hover{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 1px #FFD8DB;
+    border-radius: 15px;
+    cursor:  pointer;
+
+}
+
+.Table{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    border: none;
+    padding:5px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+  
+    background: linear-gradient(to right ,rgb(221, 221, 221) ,white);
+}
+
+#Row1{ border: NONE; 
+    border-radius: 50px; 
+    width: 25px;
+    height:15px  ;
+     margin: 15px 15px;
+     background-color: #FED7DA;}
+
+ .Row-Hover:hover{
+     background-color: rgb(204, 201, 201);
+     box-shadow: 2px 2px 3px black;
+     margin-left: 25px;
+     transition: 0.4s;
+     cursor: pointer;
+ }
+
+#Row2{
+    border: NONE; 
+    border-radius: 50px; 
+    width: 25px;
+    height:15px  ;
+     margin: 15px 15px;
+     background-color: #FD6534;
+
+}
+#Row3{
+    border: NONE; 
+    border-radius: 50px; 
+    width: 25px;
+    height:15px  ;
+     margin: 15px 15px;
+     background-color: #9ED095;
+
+}
+#Row4{
+    border: NONE; 
+    border-radius: 50px; 
+    width: 25px;
+    height:15px  ;
+     margin: 15px 15px;
+     background-color: #FFE4A0;
+     
+
+}
+footer{
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+   background:linear-gradient(to right, rgb(120, 185, 247),white);
+   font-size: 32px;
+   color: #0084ff;
+   margin-left: -8px;
+   margin-right: -8px;
+   margin-bottom: -8px;
+}
+
+.fullstop{
+    border: 1px solid#5243C0;
+    width: 10px;
+    height: 10px;
+    background-color: #5243C0;
+    display: inline-block;
+    position: absolute;
+    margin-left:8px ;
+    margin-top: 85px;
+}
+.check{ 
+    border: 2px solid #5243C0;
+    border-radius: 30px;
+    height: 20px;
+    width:20px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 6px
+    ;
+  }
+  .check:hover{
+    background-color: #5243C0;
+    color: white;
+    border-radius: 30px;
+  }
