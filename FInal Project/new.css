@@ -1,0 +1,1181 @@
+header {
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 30px;
+    background-attachment: fixed;
+}
+
+#logo {
+    background-color: #e47312;
+    font-size: xxx-large;
+    padding: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    overflow: visible;
+    display: inline-flex;
+    width: 10%;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    transform: translate(10px, 88px);
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: end;
+    margin: 0px 0px auto 0px;
+    width: 90%;
+    float: right;
+}
+
+nav>span {
+    padding: 15px;
+    margin: auto 5px;
+    cursor: pointer;
+
+}
+
+nav span a {
+    font-size: 20px;
+    color: #414147;
+    ;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+nav span a:hover {
+    color: #e47312;
+}
+
+.Line-hover::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #e47312;
+    transition: width 0.3;
+
+}
+
+.Line-hover:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+
+}
+
+
+
+
+
+#Quote-btn {
+    background-color: rgb(228, 115, 18);
+    border: none;
+    color: aliceblue;
+    height: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#Quote-btn:hover {
+    background-color: rgb(228, 115, 18, .5);
+    cursor: pointer;
+}
+
+.Centre {
+
+    justify-content: center;
+
+    padding: 25px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#head {
+    font-size: 55px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+
+#para {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+
+}
+
+#button {
+    padding: 25px;
+    background-color: rgb(228, 115, 18);
+    cursor: pointer;
+
+}
+
+#button:hover {
+    background-color: rgb(228, 115, 18, .5);
+    cursor: pointer;
+}
+
+
+.icon {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-top: 20px;
+    left: 27px;
+    cursor: pointer;
+}
+
+
+.icon-img {
+    /*float: right;*/
+    padding: 20px;
+    margin: 1px;
+    background-color: #0b2a85;
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.nav-foot {
+    margin-right: 50px;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Nfoot {
+    position: relative;
+
+    display: flex;
+    justify-content: right;
+    border: 1x solid black;
+    background: linear-gradient(to bottom, orange, rgb(241, 65, 65));
+    padding: 50px;
+    list-style: none;
+    top: 252px;
+    left: 90px;
+    cursor: pointer;
+
+
+}
+
+.Services {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.head-1 {
+    font-size: 100px;
+    color: rgba(241, 241, 247, 0.4);
+    cursor: pointer;
+}
+
+.head-2 {
+    font-size: 35px;
+    color: black;
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+    cursor: pointer;
+}
+
+.View {
+    position: relative;
+    font-size: 15px;
+    top: 132px;
+    right: 35px;
+    color: rgb(145, 145, 152);
+    cursor: pointer;
+
+}
+
+.View:hover {
+    color: rgb(145, 145, 152);
+
+}
+
+.View::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #e47312;
+    transition: width 0.3;
+
+}
+
+.View:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+
+}
+
+.View1::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #e47312;
+    transition: width 0.3;
+
+}
+
+.View1:hover::after {
+    width: 35%;
+    transition: width 0.3s;
+
+}
+
+.View2::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #e47312;
+    transition: width 0.3;
+
+}
+
+.View2:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+
+}
+
+.View3::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3;
+
+}
+
+.View3:hover::after {
+    width: 50%;
+    transition: width 0.3s;
+
+}
+
+.paraheadp::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3;
+
+}
+
+.paraheadp:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+
+}
+
+
+.container {
+    display: inline-block;
+    width: 23%;
+
+    margin-left: 10px;
+    padding: 5px;
+
+    cursor: pointer;
+
+}
+
+.Image-1 {
+    height: 60px;
+    width: 60px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.container p {
+    color: #919197;
+    ;
+}
+
+.container-1 {
+    display: inline-block;
+    width: 45%;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.image-2 {
+    width: 590px;
+    height: 393px;
+    cursor: pointer;
+}
+
+.container-1 p {
+    color: #919197;
+    cursor: pointer;
+
+}
+
+.container-3 {
+    display: inline-table;
+    width: 23%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.number {
+    margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.container-3 p {
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 3%;
+    font-family: 'Dosis', sans-serif;
+    color: #121213;
+    font-size: 15px;
+    line-height: 20px;
+    width: 165px;
+    cursor: pointer;
+}
+
+.Project {
+    display: flex;
+    justify-content: space-between;
+    position: r;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.project-image {
+    display: inline-table;
+    width: 30%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.project-img {
+    width: 405px;
+    height: 361px;
+    margin-left: 50x;
+    cursor: pointer;
+
+}
+
+.para {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    text-align: center;
+    background-position: 0px 0px, 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+
+.image-3 {
+    width: 195px;
+    cursor: pointer;
+    min-height: 300px;
+}
+
+.about-head {
+    margin-top: 0px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-overflow: clip;
+}
+
+.about-para {
+    margin-top: 0px;
+    font-size: 14px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-overflow: clip;
+}
+
+.icons {
+    position: relative;
+    left: 164px;
+    bottom: 180px;
+    cursor: pointer;
+}
+
+.About-main {
+    width: 23%;
+    display: inline-table;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+.icon-img1 {
+    /*float: right;*/
+    padding: 20px;
+    margin: 1px;
+    background-color: #e47312;
+    width: 20px;
+    cursor: pointer;
+}
+
+.outside {
+    border: 1px solid black;
+    padding: 20px;
+    background-image: linear-gradient(8deg, #ff6361, #e47312);
+    opacity: 1;
+    border-radius: 100%;
+    height: 20px;
+    margin-top: 25px;
+    width: 20px;
+    position: relative;
+    left: 104px;
+    top: 21px;
+}
+
+.inside {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.Test-div {
+    position: relative;
+}
+
+.test-bg {
+    background-color: white;
+    padding: 20px;
+    color: #919197;
+}
+
+.date {
+    width: 70px;
+    height: 110px;
+    position: relative;
+    z-index: 1;
+    left: 211px;
+    padding-left: 0px;
+    text-align: center;
+    top: 0px;
+    cursor: pointer;
+
+
+}
+
+
+
+.image-4 {
+    width: 281px;
+    height: 187px;
+    position: relative;
+    bottom: 111px;
+    cursor: pointer;
+
+}
+
+.blog-img {
+    display: inline-block;
+    width: 281px;
+    background: linear-gradient(to bottom, rgb(240, 186, 106), rgb(241, 65, 65));
+    margin: 50px;
+    cursor: pointer;
+}
+
+.Blog-text {
+    background: linear-gradient(to bottom, rgb(240, 186, 106), rgb(241, 65, 65));
+    padding: 20px;
+    width: 242px;
+    margin: 0px;
+    color: hsla(0, 0%, 100%, 0.7);
+    ;
+    font-family: Dosis, sans-serif;
+}
+
+.Trustlogo {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-image: linear-gradient(56deg, #e47312, #ff6361);
+    cursor: pointer;
+    ;
+}
+
+.Trustlogo span {
+    color: white;
+    font-family: Dosis, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    ;
+
+}
+
+.contain {
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 20px 90px;
+}
+
+h3 {
+    color: hsla(0, 0%, 100%, .5);
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    text-align: justify;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+    ;
+
+}
+
+.footer {
+
+    background-color: #172146;
+    width: 100%;
+    position: relative;
+    padding-bottom: 53px;
+
+    cursor: pointer;
+
+
+}
+
+.email {
+    margin-top: -22px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+
+#logo1 {
+    background-color: #e47312;
+    font-size: xxx-large;
+    padding: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    overflow: visible;
+    display: inline-flex;
+    width: 10%;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    transform: translate(10px, 88px);
+    z-index: 1;
+    position: relative;
+    bottom: 172px;
+    cursor: pointer;
+}
+
+.outside1 {
+    border: 1px solid black;
+    padding: 50px;
+    background-image: linear-gradient(8deg, #ff6361, #e47312);
+    opacity: 1;
+    border-radius: 100%;
+    top: 105px;
+    left: 130px;
+    position: absolute;
+    width: 60px;
+    display: inline-block;
+    opacity: 10%;
+    cursor: pointer;
+}
+
+.inside1 {
+    position: relative;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+
+}
+
+.outside1:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.img-grp {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.img-grp>.img-div>img {
+    height: 360px;
+    padding: 10px;
+}
+
+.img-div {
+    position: relative;
+    cursor: pointer;
+}
+
+.circle:hover {
+    opacity: 100%;
+
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #e47312;
+    background-color: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78));
+    border-radius: 40px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 10%;
+    cursor: pointer;
+}
+
+.circle>p {
+    margin: 20px;
+}
+
+.parahead1 {
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 25px;
+    padding-top: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.parahead2 {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-family: Dosis, sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.paraheadp {
+    color: white;
+    margin-top: 60px;
+    position: relative;
+    display: inline-block;
+
+    width: 200px;
+}
+
+.height {
+    height: 900px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+    #logo {
+        padding: 20px;
+        top: -101px;
+    }
+
+    nav {
+
+        position: relative;
+        height: 0px;
+        flex-direction: column;
+        width: 34%;
+        float: right;
+        top: 205px;
+        line-height: 2px;
+    }
+
+    #Quote-btn {
+        display: none;
+    }
+.Services{
+    
+        margin-top: 347px;
+    
+}
+
+
+
+    #head {
+        font-size: 62px;
+        margin-bottom: -50px;
+        margin-top: 124px;
+    }
+
+    .Centre {
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .icon {
+        position: relative;
+
+        margin-top: -82px;
+    }
+
+    .icon-img {
+
+        padding: 10px;
+    }
+
+    .Nfoot {
+        display: none;
+    }
+
+    .head-1 {
+        font-size: 56px;
+    }
+
+    .head-2 {
+        font-size: 25px;
+        color: black;
+        position: relative;
+        bottom: 64px;
+        left: 29px;
+    }
+
+    .View {
+        display: none;
+    }
+
+    .container {
+
+        width: 47%;
+        margin-left: 89px;
+        padding: 5px;
+    }
+
+    .container-1 {
+        display: block;
+        width: 100%;
+    }
+
+    .image-2 {
+        width: 338px;
+        height: 326px;
+    }
+
+    .container-3 {
+        display: inline-table;
+        width: 51%;
+        margin-left: 33%;
+    }
+
+    .img-div {
+        position: relative;
+        cursor: pointer;
+        left: -21px;
+    }
+
+    .img-grp>.img-div>img {
+        height: 278px;
+        padding: 10px
+    }
+
+    .img-grp {
+        display: block
+    }
+
+    .parahead1 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .parahead2 {
+        padding: 25px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .paraheadp {
+        color: white;
+        margin-top: 13px;
+    }
+
+    .Project {
+        margin: 17px;
+        display: block;
+        padding: 12px;
+    }
+
+    .outside {
+        left: 86px;
+    }
+
+    .height {
+        height: 2000px;
+    }
+
+    .Test-div {
+        position: relative;
+        left: 0px;
+    }
+
+    .blog-img {
+        display: block;
+        position: relative;
+
+        right: 46px;
+    }
+
+    .Trustlogo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        padding: 29px
+    }
+
+    .Trustlogo span {
+        text-align: center;
+        font-size: 16px;
+        line-height: 48px;
+    }
+
+    .contain {
+        display: inline-flex;
+        justify-content: space-evenly;
+        padding: 10px 17px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    #logo {
+        display: none;
+
+    }
+
+    nav span {
+        padding: 0px;
+        font-size: small;
+    }
+
+    nav span a {
+        font-size: 16px;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav {
+        width: 396px;
+    }
+
+    .icon {
+        bottom: 194px;
+    }
+
+    .Nfoot {
+        display: none;
+    }
+
+    .head-1 {
+        font-size: 80px;
+    }
+
+    .head-2 {
+        font-size: 25px;
+    }
+
+    .View {
+        display: none;
+
+
+    }
+
+    .container {
+        width: 20rem;
+        padding: 32px;
+    }
+
+    .container-1 {
+        display: block
+    }
+
+    .image-2 {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    .img-grp>.img-div>img {
+        width: 345px;
+
+    }
+
+    .img-grp {
+
+        display: block;
+
+    }
+
+    .parahead1 {
+        font-size: 25px;
+    }
+
+    .parahead2 {
+        font-size: 10px;
+    }
+
+    .paraheadp {
+        margin-top: 0px;
+    }
+
+    .Project {
+        display: list-item;
+    }
+
+    .height {
+        height: 1800px;
+
+    }
+
+    .Trustlogo {
+        line-height: 50px;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    #logo {
+        display: none;
+    }
+
+    nav span {
+        padding: 5px;
+        font-size: small;
+    }
+
+    nav span a {
+        font-size: 16px;
+    }
+
+    nav {
+        width: 540px;
+    }
+
+    .icon {
+        bottom: 110px;
+    }
+
+    .Nfoot {
+        padding: 0px;
+        list-style: none;
+        top: 102px;
+        left: 29px;
+    }
+
+    .nav-foot {
+        margin-right: 10px;
+        padding: 17px 6px;
+        font-size: 12px;
+    }
+
+    .container {
+        width: 43%;
+
+    }
+
+    .container-1 {
+
+        width: 46%;
+        margin-left: 46px;
+
+    }
+
+    .image-2 {
+        width: 529px;
+        height: 395px;
+    }
+
+    .img-grp>.img-div>img {
+        height: 360px;
+        width: 526px;
+    }
+
+    .img-grp {
+        display: block;
+        justify-content: center;
+        margin-left: 39px;
+    }
+
+    .Project {
+        display: block;
+    }
+
+    .height {
+        height: 1800px;
+    }
+
+    .View {
+        display: none;
+    }
+
+    .blog-img {
+
+        width: 486px;
+    }
+
+    .date {
+        left: 416px
+    }
+
+    .image-4 {
+        width: 486px;
+    }
+
+
+    .Blog-text {
+
+        width: 447px;
+    }
+
+    .Trustlogo {
+        display: flex;
+
+        flex-direction: column;
+
+        text-align: center;
+        line-height: 68px;
+    }
+
+    .contain {
+
+
+        position: relative;
+        left: 75px;
+    }
+
+    .paraheadp {
+        color: white;
+        margin-top: 0px;
+    }
+
+    .About-main {
+        width: 23%;
+        display: inline-table;
+        margin-left: 34px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    #logo {
+        transform: translate(6px, 78px);
+    }
+
+    .icon {
+        margin-top: -18px;
+        left: 30px;
+    }
+
+    .Nfoot {
+
+        padding: 3px;
+
+        top: 0px;
+        left: 27px;
+    }
+
+    .Services {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .View {
+
+        right: -158px;
+    }
+
+    .container {
+        display: inline-block;
+        width: 22%;
+    }
+
+    .container {
+        display: inline-block;
+        width: 36%;
+    }
+
+    .container-1 {
+        display: block;
+
+        margin-left: 90px;
+    }
+
+    .img-grp>.img-div>img {
+        height: 309px;
+        padding: 10px;
+        width: 235px;
+    }
+
+    .View {
+        right: 17px;
+    }
+
+    .paraheadp {
+        color: white;
+        margin-top: 26px;
+    }
+
+    .About-main {
+        width: 48%;
+    }
+
+    .head-1 {
+        font-size: 66px;
+    }
+
+    .head-2 {
+        font-size: 30px;
+        bottom: 92px;
+        left: 35px;
+    }
+
+    .blog-img {
+        width: 276px;
+    }
+
+    .Trustlogo span {
+        font-size: inherit;
+    }
+
+    .contain {
+
+        padding: 18px 66px;
+    }
+}
