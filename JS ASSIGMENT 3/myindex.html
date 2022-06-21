@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3 Dom</title>
+    <script src="myscript.js" text="text/javascript" defer></script>
+    <style>
+       
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #product {
+            width: 90%;
+            margin-left: 70px;
+        
+        }
+
+
+        .card-Wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 12px;
+            cursor: pointer;
+            margin-top: 25px;
+
+        }
+
+        .card {
+            width: 100%;
+            box-shadow: 0 2px 5px rgb(168, 168, 168);
+            border-radius: 5px;
+        }
+
+        .card:hover {
+            box-shadow: 0 2px 5px rgb(83, 83, 83);
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .textWrapper {
+            padding: 15px;
+
+        }
+
+        .desc {
+            font-size: 16px;
+            font-weight: 200;
+            text-align: left;
+
+            color: rgb(27, 25, 25);
+        }
+
+        .brand {
+            margin-top: 10px;
+            text-align: left;
+            font-size: 12px;
+            color: rgb(110, 110, 110);
+        }
+
+        .price {
+            margin-top: 10px;
+            text-align: left;
+            font-size: 15px;
+            letter-spacing: 2px;
+            color: #009688;
+            font-weight: bold;
+        }
+
+        #clothing h2 {
+            margin-top: 100px;
+            font-size: 1.5em;
+            opacity: 0.8;
+
+            color: rgb(27, 25, 25);
+        }
+
+        #acessories h2 {
+            margin-top: 100px;
+            font-size: 1.5em;
+            opacity: 0.8;
+
+            color: rgb(27, 25, 25);
+        }
+
+        @media screen and (min-width: 150px) and (max-width: 299px) {
+            .card-Wrapper {
+                display: grid;
+                grid-template-columns: 1fr;
+
+            }
+        }
+
+        @media screen and (min-width: 300px) and (max-width: 499px) {
+            .card-Wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+            }
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 799px) {
+            .card-Wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media screen and (min-width: 800px) and (max-width: 1000px) {
+            .card-Wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="product">
+        <section id="clothing">
+            <h2> Clothing for Men and Women</h2>
+            <div class="card-Wrapper" id="topWrapper">
+
+            </div>
+        </section>
+        <section id="acessories">
+            <h2>Accessories for Men and Women</h2>
+            <div class="card-Wrapper" id="bottomWrapper"></div>
+        </section>
+    </section>
+</body>
+
+</html>
